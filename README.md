@@ -1,4 +1,6 @@
 # Nscan
+Mirror of https://github.com/OffensivePython/Nscan.git
+
 Nscan is a fast Network scanner optimized for internet-wide scanning purposes and inspired by Masscan and Zmap. It has it's own tiny TCP/IP stack and uses Raw sockets to send TCP SYN probes. It doesn't need to set SYN Cookies so it doesn't wastes time checking if a received packet is a result of it's own scan, that makes Nscan faster than other similar scanners.
 
 Nscan has a cool feature that allows you to extend your scan by chaining found ip:port to another scripts where they might check for vulnerabilities, exploit targets, look for Proxies/VPNs... 
